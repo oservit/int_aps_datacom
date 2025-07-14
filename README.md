@@ -64,7 +64,7 @@ airflow[oracle,mssql]
 ## 🌐 Acesso
 
 ### Interface Airflow
-- **URL**: `http://servidor-airflow:8080`
+- **URL**: `http://172.25.4.30:8686`
 - **DAG ID**: `erp_aps_integracao`
 
 ### Controle de Execução
