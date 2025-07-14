@@ -25,7 +25,6 @@ integracao_datacom_lsb/
 │   └── erp_aps_integracao.py      # DAG principal do Airflow
 ├── include/
 │   └── queries_integra_aps.sql    # Queries das funções Oracle
-├── CLAUDE.md                      # Documentação técnica
 └── README.md                      # Este arquivo
 ```
 
