@@ -89,15 +89,3 @@ A DAG executa automaticamente conforme agendamento. Para execução manual:
 1. Acesse a interface do Airflow
 2. Localize a DAG `erp_aps_integracao`
 3. Clique em "Trigger DAG"
-
-## 📊 Tabelas Envolvidas
-
-### Oracle → SQL Server
-- `recursos` ← FC_RETURN_RS_REL_LSB_INT_RECURSOS
-- `materiais` ← FC_RETURN_RS_REL_LSB_INT_MATERIAIS
-- `ordens` ← FC_RETURN_RS_REL_LSB_INT_ORDENS
-- `estoque` ← FC_RETURN_RS_REL_LSB_INT_ESTOQUES
-- *... e outras 8 tabelas*
-
-### SQL Server → Oracle
-- `LSB_INT_Programacao` → `TB_LSB_INT_PROGRAMACAO`
